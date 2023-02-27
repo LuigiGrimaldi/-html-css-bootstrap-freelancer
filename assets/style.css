@@ -9,4 +9,15 @@
         background-color: black;
         height: 70px;
     }
+
+    .debug .left_header{
+        height: 35px;
+        background-color: darkkhaki;
+    }
+
+    .debug .right_header{
+        height: 35px;
+        background-color: darkgreen;
+    }
+
 /* #endregion debug */
