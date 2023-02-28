@@ -1,23 +1,94 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px dashed;
 }
 
 /* #region debug */
-    .debug #app_header{
-        background-color: black;
-        height: 70px;
-    }
 
-    .debug .left_header{
-        height: 35px;
-        background-color: darkkhaki;
-    }
+/* #region debug app_header */
+.debug #app_header {
+    background-color: black;
+    height: 70px;
+}
 
-    .debug .right_header{
-        height: 35px;
-        background-color: darkgreen;
-    }
+.debug .left_header {
+    height: 35px;
+    background-color: darkkhaki;
+}
+
+.debug .right_header {
+    height: 35px;
+    background-color: darkgreen;
+}
+
+.debug [class^="col"] {
+    height: 100%;
+}
+
+/* #endregion debug app_header */
+
+/* #region debug app_main */
+.debug .jumbotron {
+    height: 500px;
+    background-color: antiquewhite;
+}
+
+.debug .card {
+    height: 200px;
+    background-color: white;
+}
+
+.debug .about {
+    height: 500px;
+    background-color: red;
+}
+
+.debug .contact {
+    height: 400px;
+    background-color: brown;
+}
+
+.debug .location {
+    height: 300px;
+    background-color: blueviolet;
+}
+
+/* #endregion debug app_main */
+
+/* #region debug app_footer */
+.debug .footer {
+    height: 100px;
+    background-color: darkgoldenrod;
+}
+
+/* #endregion debug app_footer */
+
 
 /* #endregion debug */
+
+/* #region app_header */
+.left_header {
+    margin-top: 1rem;
+}
+
+.right_header {
+    margin-top: 1rem;
+}
+
+/* #endregion app_header */
+
+/* #region app_main */
+
+/* #endregion app_main */
+
+/* #region utilities */
+.my_container {
+    width: 70%;
+    margin: auto;
+}
+
+/* #endrigion utilities */
+
+/* responsive */
