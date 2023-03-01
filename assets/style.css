@@ -10,6 +10,10 @@
     --fr-location: #3a546d;
 }
 
+img{
+ 
+}
+
 /* #region debug */
 
 /* #region debug app_header */
@@ -97,6 +101,10 @@
 
 .bg_secondary {
     background-color: var(--fr-secondary);
+}
+
+.bg_primary{
+    background-color: var(--fr-primary);
 }
 
 /* #endrigion utilities */
