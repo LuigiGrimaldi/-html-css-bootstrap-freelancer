@@ -2,7 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px dashed;
+}
+
+:root {
+    --fr-primary: #1abc9c;
+    --fr-secondary: #2c3e50;
+    --fr-location: #3a546d;
 }
 
 /* #region debug */
@@ -24,7 +29,8 @@
 }
 
 .debug [class^="col"] {
-    height: 100%;
+    height: 200px;
+    border: 1px dashed black;
 }
 
 /* #endregion debug app_header */
@@ -85,8 +91,12 @@
 
 /* #region utilities */
 .my_container {
-    width: 70%;
+    width: 90%;
     margin: auto;
+}
+
+.bg_secondary {
+    background-color: var(--fr-secondary);
 }
 
 /* #endrigion utilities */
